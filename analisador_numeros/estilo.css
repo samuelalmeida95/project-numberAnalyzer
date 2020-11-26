@@ -1,0 +1,38 @@
+body{
+    background: rgb(20, 183, 224);
+    font: normal 20pt Comic Sans MS;
+    color: #fff;
+}
+
+header{
+    text-align: center;
+    padding: 10px;
+}
+
+article{
+    background: #fff;
+    border-radius: 10px;
+    color: black;
+    font-size: 19pt;
+
+    width: 550px;
+    padding: 10px;
+    margin: 0 auto;
+}
+
+footer {
+    text-align: center;
+    font-size: 16pt;
+}
+
+
+input, p{
+    font-size: 15pt;
+    
+}
+
+select{
+    width: 250px
+    
+}
+

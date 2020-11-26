@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Analisador de numeros</title>
+</head>
+<body>
+    
+    <header>
+        Analisador de Números
+    </header>
+
+    <article>
+       
+        <p>Número (entre 1 e 100):
+            <input type="number" id="n1" placeholder="digite aqui">
+        </p>
+        <p>
+            <input type="button" id="adicionar" value="Adicionar" onclick="adicionar()">
+        </p>
+
+        <select id="lista" size="8"></select>
+
+        <p>
+            <input type="button" id="finalizar" value="finalizar" onclick="finalizar()">
+        </p>
+
+        <div id="res"></div>
+    </article>
+
+    <footer>
+        <p>&copy; Praticando array e for com o DOM</p>
+    </footer>
+
+    <script src="program.js"></script>
+</body>
+</html> 
